@@ -1,0 +1,34 @@
+.example-button {
+  background:rgb(86, 1, 245) ;
+  color: white;
+  font-size: 16px;
+  border-radius: 0.4rem;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* App.css */
+.svg-background {
+  position: relative;
+  height: 100vh; /* Set the height to 100% of the viewport height or adjust as needed */
+}
+
+.svg-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  height: 100%;
+  background-image: url('./assets/svg.svg'); /* Adjust the path accordingly */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; /* Ensure the SVG doesn't repeat */
+}
