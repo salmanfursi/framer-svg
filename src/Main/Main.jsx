@@ -1,12 +1,13 @@
 import Navbar from '../Shared/Navbar/Navbar';
-import Footer from '../Shared/Footer/Footer';
+// import Footer from '../Shared/Footer/Footer';
+import Sticky from '../sticky';
 // import App from '../App';
 // import Gesture from '../Gesture';
 // import AnimationControl from '../AnimationControl';
 // import ViewBasedAnimation from '../ViewBasedAnimation';
 // import ScrollAnimation from '../ScrollAnimation';
 // import Svg from '../Svg';
-import Svg2 from '../svg2';
+// import Svg2 from '../svg2';
 // import { Outlet } from 'react-router-dom';
 
 const Main = () => {
@@ -20,10 +21,11 @@ const Main = () => {
       {/* <ViewBasedAnimation /> */}
       {/* <ScrollAnimation /> */}
       {/* <Svg /> */}
-      <Svg2 />
+      {/* <Svg2 /> */}
+      <Sticky />
 
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

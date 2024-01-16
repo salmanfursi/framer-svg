@@ -25,10 +25,19 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: -1;
+  z-index: -20;
   height: 100%;
   background-image: url('./assets/svg.svg'); /* Adjust the path accordingly */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat; /* Ensure the SVG doesn't repeat */
+}
+
+/* from css genarator */
+.para{
+  --mask:
+  radial-gradient(30.00px at 50% 30.00px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+  radial-gradient(30.00px at 50% 0px,#0000 99%,#000 101%) 50% 30px/120px 100% repeat-x;
+-webkit-mask: var(--mask);
+        mask: var(--mask);
 }
